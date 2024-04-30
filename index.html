@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Gameazon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="/images/icon.png" type="image/x-png">
+  
+  <link href="/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <nav>
+    <h1 id="title">Gameazon</h1>
+    <ul id="links">
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="#games">Games</a>
+        <ul class="dropdown">
+          <div class="triangle"></div>
+          <li><a href="/games/mario.html">Mario</a></li>
+          <li><a href="/games/supersmash.html">Super Smash Bros</a></li>
+          <li><a href="/games/spiderman.html">Spider-Man</a></li>
+          <li><a href="/games/gorilla.html">Gorilla Tag</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#consoles">Consoles</a>
+        <ul class="dropdown">
+          <div class="triangle"></div>
+          <li><a href="/consoles/nintendo.html">Nintendo Switch</a></li>
+          <li><a href="/consoles/ps5.html">PlayStation 5</a></li>
+          <li><a href="/consoles/oculus.html">Oculus</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <header>
+    <div class="slides">
+      <div id="play" class="slide center show">
+        <h1>COD is on top on the ps5, thats all i have to say</h1>
+      </div>
+      <div id="gorrila" class="slide center">
+        <h1>Tag!</h1>
+      </div>
+      <div id="nintendo" class="slide center">
+        <h1> Smash </h1>
+      </div>
+    </div>
+  </header>
+
+  <section id="featured">
+    <a href="/games/spiderman.html" class="item large">
+      <div class="imageContainer">
+        <img src="/images/spiderman.jpeg">
+      </div>
+      <div class="text">
+        <h3>Spider-Man 2</h3>
+        <p>A new Spider-Man game that lets you use the symbiote while using Peter Parker.</p>
+        <p class="price">$60</p>
+      </div>
+    </a>
+  </section>
+
+  <section id="games">
+    <h2>Games</h2>
+    
+    <div class="items">
+      <a href="/games/mario.html" class="item">
+        <div class="imageContainer">
+          <img src="/images/mario.jpg">
+        </div>
+        <div class="text">
+          <h3>Mario Bros. Wonder</h3>
+          <p>Be elephant</p>
+          <p class="price">$60</p>
+        </div>
+      </a>
+      <a href="/games/supersmash.html" class="item">
+        <div class="imageContainer">
+          <img src="/images/smash.jpg">
+        </div>
+        <div class="text">
+          <h3>Super Smash Bros.</h3>
+          <p>The Super Smash Bros. series is a crossover series of multiplayer fighting games in which many well-known Nintendo characters are pitted against each other to fight, with each character using their unique abilities in battle.
+</p>
+          <p class="price">$60</p>
+        </div>
+      </a>
+      <a href="/games/gorilla.html" class="item">
+        <div class="imageContainer">
+          <img src="/images/gorilla.jpeg">
+        </div>
+        <div class="text">
+          <h3>Gorilla Tag</h3>
+          <p>Tag other gorrilas, in VR!</p>
+          <p class="price">$60</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section id="consoles">
+    <h2>Consoles</h2>
+
+    <div class="items">
+      <a href="/consoles/ps5.html" class="item">
+        <div class="imageContainer">
+          <img src="/images/ps5.jpeg">
+        </div>
+        <div class="text">
+          <h3>Play Station 5</h3>
+          <p>Xbox but better and you can play Spider-Man on it.</p>
+          <p class="price">$400</p>
+        </div>
+      </a>
+      <a href="/consoles/nintendo.html" class="item">
+        <div class="imageContainer">
+          <img src="/images/nintendoSwitch.jpeg">
+        </div>
+        <div class="teconsolesxt">
+          <h3>Nintendo Switch</h3>
+          <p> Smash Bros and Mario kart, what else do you need</p>
+          <p class="price">$350</p>
+        </div>
+      </a>
+      <a href="/consoles/oculus.html" class="item">
+        <div class="imageContainer">
+          <img src="/images/oculus3.jpeg">
+        </div>
+        <div class="text">
+          <h3>Oculus 3</h3>
+          <p>Makes games like gorilla tag more immersive and has original games like Beatsaber.</p>
+          <p class="price">$450</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <h2>Gameazon &copy;2023</h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#games">Games</a></li>
+      <li><a href="#consoles">Consoles</a></li>
+    </ul>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
